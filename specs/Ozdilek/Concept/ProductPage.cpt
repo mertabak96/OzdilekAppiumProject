@@ -1,0 +1,19 @@
+Created by testinium on 3.04.2022
+
+This is a concept file with following syntax for each concept.
+# Ürünlerden rastgele bir ürün seçilir.
+* Rastgele ürün seçilir..
+* "2" saniye kadar bekle
+
+# Ürün detay sayfası açıldığı kontrol edilir.
+* Id "com.ozdilek.ozdilekteyim:id/imgFav" li elementi bul
+* "2" saniye kadar bekle
+
+
+
+# Favoriler butonuna tıklanır.
+* Id "com.ozdilek.ozdilekteyim:id/imgAddFav" li elementi bul ve tıkla
+* "2" saniye kadar bekle
+
+# Rastgele bir ürün seçilir.
+* Rastgele ürün seçilir..

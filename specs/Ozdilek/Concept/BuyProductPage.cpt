@@ -1,0 +1,9 @@
+Created by testinium on 3.04.2022
+
+This is a concept file with following syntax for each concept.
+# Seçilen ürün sepete eklenir.
+* "2" saniye kadar bekle
+* Xpath "(//*[@class='android.widget.TextView'])[4]" li elementi bul ve tıkla
+* "2" saniye kadar bekle
+* Id "com.ozdilek.ozdilekteyim:id/relLayAddCartBtn" li elementi bul ve tıkla
+* "2" saniye kadar bekle

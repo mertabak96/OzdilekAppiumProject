@@ -1,0 +1,8 @@
+[
+	"C:\\Program Files\\Gauge\\bin\\gauge.exe",
+	"run",
+	"--machine-readable",
+	"--hide-suggestion",
+	"--simple-console",
+	"C:/Users/testinium/Desktop/Egitim4/OzdilekAppiumProject/specs/Ozdilek/Spec/Ozdilek.spec:9"
+]

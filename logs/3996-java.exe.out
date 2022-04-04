@@ -1,0 +1,55 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+SLF4J: A number (18) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+{"logLevel":"debug","message":"gauge-java took 6933milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 6933"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 51307"}
+{"logLevel":"info","message":"Listening on port:51307"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'BasePage.scrollForwardBottom' and 'BasePage.scrollForwardBottom'"}
+{"logLevel":"debug","message":"Found Sayfayı en aşağıya doğru iki kez kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.clickByid' and 'BasePage.clickByid'"}
+{"logLevel":"debug","message":"Found Id {} li elementi bul ve tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.findByelementEndclick' and 'BasePage.findByelementEndclick'"}
+{"logLevel":"debug","message":"Found {} elemetin sayfada gorunur olduğunu kontrol et ve tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.clickByxpath' and 'BasePage.clickByxpath'"}
+{"logLevel":"debug","message":"Found Xpath {} li elementi bul ve tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.waitForsecond' and 'BasePage.waitForsecond'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.textIdAreacontrol' and 'BasePage.textIdAreacontrol'"}
+{"logLevel":"debug","message":"Found id {} li elementi bul ve {} alanını kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.textXpathAreacontrol' and 'BasePage.textXpathAreacontrol'"}
+{"logLevel":"debug","message":"Found xpath {} li elementi bul ve {} alanını kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.findElementArea' and 'BasePage.findElementArea'"}
+{"logLevel":"debug","message":"Found Id {} li elementi bul in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.RandomSec' and 'BasePage.RandomSec'"}
+{"logLevel":"debug","message":"Found Rastgele ürün seçilir.. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.sendKeybyId' and 'BasePage.sendKeybyId'"}
+{"logLevel":"debug","message":"Found Id {} li elementi bul ve {} değerini gir in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tXpath {} li elementi bul ve tıkla : public void clickByxpath(String xpath)"}
+{"logLevel":"debug","message":"\tId {} li elementi bul ve {} değerini gir : public void sendKeybyId(String id, String text)"}
+{"logLevel":"debug","message":"\t{} elemetin sayfada gorunur olduğunu kontrol et ve tıkla : public void findByelementEndclick(String id)"}
+{"logLevel":"debug","message":"\txpath {} li elementi bul ve {} alanını kontrol et : public void textXpathAreacontrol(String xpath, String text)"}
+{"logLevel":"debug","message":"\tRastgele ürün seçilir.. : public void RandomSec()"}
+{"logLevel":"debug","message":"\tid {} li elementi bul ve {} alanını kontrol et : public void textIdAreacontrol(String id, String text)"}
+{"logLevel":"debug","message":"\tId {} li elementi bul ve tıkla : public void clickByid(String id)"}
+{"logLevel":"debug","message":"\t{} saniye kadar bekle : public void waitForsecond(ınt s) throws InterruptedException"}
+{"logLevel":"debug","message":"\tSayfayı en aşağıya doğru iki kez kaydır : public void scrollForwardBottom() throws InterruptedException"}
+{"logLevel":"debug","message":"\tId {} li elementi bul : public void findElementArea(String id)"}
+ ANDROID TESTI BASLADI ----  
+Nis 04, 2022 10:10:03 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForsecond"}
+{"logLevel":"debug","message":"Executing 'id {} li elementi bul ve {} alanını kontrol et' using 'class BasePage.textIdAreacontrol"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
